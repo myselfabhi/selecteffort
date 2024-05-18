@@ -6,10 +6,16 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-red-600 text-white py-12">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">Welcome to Effort Education</h1>
-          <p className="text-lg mb-8">Unlock Your Potential with Our Comprehensive Courses</p>
+      <section className="bg-gray-200 py-10">
+        <div className="my-10">
+          <div className="mx-20"><span className="text-3xl font-medium italic">Lessons and insights</span><span className="text-4xl text-blue-400 font-light"> from</span>
+          
+          </div>
+          <h2 className=" text-center mx-20 text-6xl text-green-600 font-extrabold">effort education</h2>
+          
+          <p className="mx-20 text-blue-500">Unlock Your Potential with Our Comprehensive Courses</p>
+          <br />
+          <button className="mx-20 bg-green-600 hover:bg-red-700 text-white font-bold py-2 px-4 border  rounded">Register</button>
          </div>
       </section>
 

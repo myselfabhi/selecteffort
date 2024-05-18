@@ -8,10 +8,12 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="bg-gray-200 py-10">
         <div className="my-10">
-          <div className="mx-20"><span className="text-3xl font-medium italic">Lessons and insights</span><span className="text-4xl text-blue-400 font-light"> from</span>
-          
+          <div className="mx-20">
+            <span className="text-3xl font-medium italic">Lessons and insights</span>
+            <span className="text-4xl text-blue-400 font-light"> from</span>
+          <h2 className=" text-center text-6xl text-green-600 font-extrabold">effort education</h2>
           </div>
-          <h2 className=" text-center mx-20 text-6xl text-green-600 font-extrabold">effort education</h2>
+          
           
           <p className="mx-20 text-blue-500">Unlock Your Potential with Our Comprehensive Courses</p>
           <br />

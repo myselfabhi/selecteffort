@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="bg-red-600 text-white py-12">
+    <section className="bg-green-600 text-white py-12">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-lg mb-8">Connect with us on social media for updates, news, and more!</p>

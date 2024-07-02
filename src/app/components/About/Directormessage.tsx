@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Pic from './Director.jpg';
 
 const DirectorMessage: React.FC = () => {
@@ -9,7 +10,7 @@ const DirectorMessage: React.FC = () => {
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="flex flex-col items-center mb-4">
           <div className="w-24 h-24 rounded-full overflow-hidden border border-gray-300 flex items-center justify-center mb-2">
-              <img src="./Director.jpg" alt="Director" width={100} height={100} className="object-cover" />
+            <Image src={Pic} alt="Director" width={100} height={100} className="object-cover" />
             </div>
             <h3 className="text-lg font-semibold">Mr. M.K. Verma</h3>
           </div>

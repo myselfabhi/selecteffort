@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.contact-img{
+  object-fit: cover;
+  
+  z-index: -5;
+  
+}

@@ -5,7 +5,7 @@ import DirectorMessage from './Directormessage';
 
 const AboutUsPage: React.FC = () => {
   return (
-    <div className="bg-gradient-to-b from-red-600 to-white">
+    <div className="bg-gradient-to-b bg-green-600 ">
       {/* About Us Section */}
       <section className="container mx-auto py-12 px-4">
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">

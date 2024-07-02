@@ -1,10 +1,12 @@
 import { NextPage } from 'next';
 import React from 'react';
-import backgroundImage from './Contact.jpeg';
+import Image from 'next/image'
+import backgroundImage from './backgroundImage.jpg';
 
 const ContactPage: NextPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center " style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="min-h-screen flex items-center justify-center ">
+      <Image className="contact-img"  src={backgroundImage} alt="background" fill={true}/>
       <div className="max-w-lg w-full bg-white rounded-lg shadow-lg p-8 m-6 ml-auto  ">
         <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
         <form action="https://formspree.io/f/mleqlgkb" method="POST">

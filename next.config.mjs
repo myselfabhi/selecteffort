@@ -1,9 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {};
+// module.exports = {
+//     eslint: {
+//       dirs: ['pages', 'utils'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+//     },
+//   }
+
+// export default nextConfig;
 module.exports = {
     eslint: {
-      dirs: ['pages', 'utils'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
-    },
+      dirs: ['pages', 'utils'],  },
   }
-
-export default nextConfig;
